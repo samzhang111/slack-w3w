@@ -8,14 +8,13 @@ from flask import abort
 from simplejson import JSONDecodeError
 
 import json
-from math import radians, cos, sin, asin, sqrt
 import requests
 import urllib
 
 from settings import slack_key
 import re
 
-slack_webhook = 'https://dssg.slack.com/services/hooks/incoming-webhook?token={slack_key}'
+#slack_webhook = 'https://dssg.slack.com/services/hooks/incoming-webhook?token={slack_key}'
 w3w_base = 'http://w3w.co/'
 w3w_api = 'http://api.what3words.com/w3w'
 
