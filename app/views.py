@@ -5,11 +5,7 @@ from flask import request
 from flask import Response
 from flask import abort
 
-from simplejson import JSONDecodeError
-
 import json
-import requests
-import urllib
 
 from settings import slack_key
 import re
@@ -39,4 +35,6 @@ def slack_receive():
 
     return Response(json.dumps({'text': '\n'.join(responses)}))
 
-
+@app.route('/')
+def root():
+    return ''
