@@ -7,7 +7,7 @@ from flask import abort
 
 import json
 
-from settings import slack_key
+#from settings import slack_key
 import re
 
 #slack_webhook = 'https://dssg.slack.com/services/hooks/incoming-webhook?token={slack_key}'
