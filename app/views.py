@@ -14,7 +14,7 @@ import re
 w3w_base = 'http://w3w.co/'
 w3w_api = 'http://api.what3words.com/w3w'
 
-is_three_word = re.compile('^\w+?\.\w+?\.\w+$')
+is_three_word = re.compile('^\w\w\w\w+?\.\w\w\w\w+?\.\w\w\w\w+$')
 
 @app.route('/receive', methods=['POST'])
 def slack_receive():
