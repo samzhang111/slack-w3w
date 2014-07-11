@@ -12,3 +12,11 @@ feel free to use it yourself. Just drop it into
 
 We haven't implemented support for OneWords yet, but feel free to submit a pull
 request!
+
+### Example use:
+
+"Blah blah today we're going to get coffee at pass.hears.tiger"
+
+Slack WebHooks sends a message to the channel that says:
+
+"[http://w3w.co/pass.hears.tigers](http://w3w.co/pass.hears.tigers)"
